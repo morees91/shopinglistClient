@@ -29,7 +29,7 @@ export default function MainPage(){
         </li>
 
         <li className="nav-item">
-            <NavLink to={'/ShopingList'}   className={`nav-link `} end>Shoping List</NavLink>
+            <NavLink  to={'/ShopingList'}   className={`nav-link `} end>Shoping List</NavLink>
         </li>
 
         </Navbar>
