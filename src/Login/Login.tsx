@@ -134,7 +134,7 @@ label='UserName' type='text'  onchange={HandleInputs}
 placeholder='Enter UserName'value={userInfo.username} />
 
 <FormGroup inputname='password' 
-label='password' type='text' onchange={HandleInputs}
+label='password' type='password' onchange={HandleInputs}
 placeholder='Enter password'value={userInfo.password} />
 
 </Card>
