@@ -41,7 +41,7 @@ export default function Additem() {
   const Items = () => {
 
 
-    axios.get('http://localhost:3000/items/Items')
+    axios.get('https://shoplistserver.onrender.com/items/Items')
       .then(res => {
 
 
@@ -60,7 +60,7 @@ export default function Additem() {
     formData.append('item', JSON.stringify(item))
 
 
-    axios.post('http://localhost:3000/items/AddItem', formData)
+    axios.post('https://shoplistserver.onrender.com/items/AddItem', formData)
       .then(res => {
 
         if (res.data.status == 500) {

@@ -44,7 +44,7 @@ const HandleInputs = (e: React.ChangeEvent<HTMLSelectElement>) => {
   const Items=()=>{
 
 
-axios.get('http://localhost:3000/items/Items')
+axios.get('https://shoplistserver.onrender.com/items/Items')
 .then(res =>{
 
 
